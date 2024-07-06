@@ -13,10 +13,17 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    border-style:groove;
+    border-radius: 5px;
 }
 
 nav {
     background-color: #333;
+    padding:2px ;
+    width: 880px;
+    margin: 0 auto;
+    border-radius: 15px;
+    
     
 }
 
@@ -62,6 +69,8 @@ section {
     max-width: 800px;
     background-color: rgba(245, 245, 245, 0.925);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 110%;
+    border-radius: 10px;
     
 }
 
@@ -74,7 +83,10 @@ section {
 .gallery img {
     max-width: 25%;
     height: 25%;
-}
+    border-radius: 5px;
+    margin: 20px;
+    image-rendering: optimizeQuality;
+    margin:0 auto;}
 
 .social-link {
     display: inline-block;
@@ -93,8 +105,11 @@ section {
 }
 
 .social-icon {
-    width: 40px; /* Ubah sesuai kebutuhan Anda */
-    height: 40px; /* Ubah sesuai kebutuhan Anda */
+    width: 60px; 
+    height: 60px; 
+    border-radius: 12px;
+    margin: 10px;
+    
 }
 
 .social-button:hover .social-icon {
