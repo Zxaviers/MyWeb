@@ -82,11 +82,29 @@ section {
 
 .gallery img {
     max-width: 25%;
-    height: 25%;
+    max-height: 25%;
     border-radius: 5px;
     margin: 20px;
     image-rendering: optimizeQuality;
-    margin:0 auto;}
+    margin:0 auto;
+}
+
+.fotoSMA img {
+    max-width: 80%;
+    max-height: 80%;
+    margin:0 auto;
+    margin: 10%;
+    border-radius: 5px;
+}
+
+.fotoUniv img {
+    max-width: 80%;
+    max-height: 80%;
+    margin:0 auto;
+    margin: 10%;
+    border-radius: 5px;
+
+}
 
 .social-link {
     display: inline-block;
