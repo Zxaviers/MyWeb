@@ -15,6 +15,8 @@ header {
     padding: 1em 0;
     border-style:groove;
     border-radius: 5px;
+    max-width: 1920px; ;
+    margin: 0 auto;
 }
 
 nav {
@@ -82,7 +84,7 @@ section {
 
 .gallery img {
     max-width: 25%;
-    max-height: 25%;
+    height: 25%;
     border-radius: 5px;
     margin: 20px;
     margin:0 auto;
@@ -141,4 +143,6 @@ footer {
     padding: 1em 0;
     background-color: #333;
     color: white;
+    max-width: 1920px;
+    margin: 0 auto;
 }
