@@ -158,3 +158,24 @@ footer {
     max-width: 1920px;
     margin: 0 auto;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    section img {
+        margin: 0.5rem auto;
+    }
+}
+ 
+/* Animation Example */
+section img {
+    transition: transform 0.2s ease-in-out;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
