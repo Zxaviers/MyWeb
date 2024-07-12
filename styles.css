@@ -217,7 +217,10 @@ section {
     max-width: 1000px;
     position: relative;
     margin: auto;
+}
 
+.slideshow-container img {
+    border-radius: 5px;   
 }
 
 .mySlides {
