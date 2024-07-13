@@ -221,6 +221,7 @@ section {
 
 .slideshow-container img {
     border-radius: 5px;   
+    margin:0 auto;
 }
 
 .mySlides {
