@@ -23,6 +23,7 @@ header {
     border-radius: 5px;
     max-width: 1920px;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 nav {
@@ -31,19 +32,32 @@ nav {
     max-width: 800px;
     margin: 0 auto;
     border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
+
+.sticky-nav {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Menjaga agar tetap di atas elemen lain */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Opsional: menambah bayangan */
+  }
+  
 
 /* Gaya untuk tombol navigasi */
 .nav-button {
-    background-color: #656a70; /* Warna biru atau sesuaikan dengan tema Anda */
+    background-color: #656a70; 
     color: white;
     border: none;
-    padding: 10px 10px;
+    padding: 8px 10px;
     margin: 10px;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
     transition: all 0.3s ease;
+    align-items:center ;
 }
 
 .nav-button:hover {
@@ -58,6 +72,9 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items:center;
+    margin:0;
+   
 }
 
 nav ul li {
@@ -84,30 +101,8 @@ section {
     gap: 1em;
 }
 
-.gallery img {
-    max-width: 25%;
-    height: 25%;
-    border-radius: 5px;
-    margin: 20px;
-    margin: 0 auto;
-}
-
-.fotoSMP img {
-    max-width: 90%;
-    max-height: 90%;
-    margin: 0 auto;
-    margin: 5%;
-    border-radius: 5px;
-}
-
-.fotoSMA img {
-    max-width: 90%;
-    max-height: 90%;
-    margin: 0 auto;
-    margin: 5%;
-    border-radius: 5px;
-}
-
+.fotoSMP img 
+.fotoSMA img 
 .fotoUniv img {
     max-width: 90%;
     max-height: 90%;
@@ -121,16 +116,6 @@ section {
     text-decoration: none;
 }
 
-.social-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
 
 .social-icon {
     width: 60px; 
@@ -154,7 +139,7 @@ footer {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     z-index: 99;
     font-size: 18px;
     background-color: #555;
